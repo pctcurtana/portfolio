@@ -3,7 +3,6 @@ import { ComputerDesktopIcon } from '@heroicons/react/24/outline'
 import { ServerIcon } from '@heroicons/react/24/outline'
 import { DevicePhoneMobileIcon } from '@heroicons/react/24/outline'
 import { TypeAnimation } from 'react-type-animation'
-import { Iconoir } from 'iconoir-react';
 
 export default function () {
     return(
@@ -32,17 +31,17 @@ export default function () {
                 <ArrowRightCircleIcon className='h-5 w-5 ml-2'/>
                 </button>
             </div>
-            <div className='flex items-center justify-center text-white/80'>
+            <div className='flex items-center justify-between text-white/80'>
                 <ComputerDesktopIcon className='w-20 h-20' strokeWidth={0.6}/>
-                <div className='animate-pulse w-20 h-[2px] bg-white'></div>
+                <div className='animate-pulse w-50 h-[2px] bg-white'></div>
                 <DevicePhoneMobileIcon className='w-20 h-20' strokeWidth={0.6}/>
-                <div className='animate-pulse w-20 h-[2px] bg-white'></div>
+                <div className='animate-pulse w-50 h-[2px] bg-white'></div>
                 <ServerIcon className='w-20 h-20' strokeWidth={0.6}/>
             </div>
-            <div className='flex justify-center gap-8'>
+            <div className='flex justify-between'>
                 <p className='font-bold text-xs md:text-sm'>Web development</p>
                 <p className='font-bold text-xs md:text-sm'>App development</p>
-                <p className='font-bold text-xs md:text-sm'>Hosting management</p>
+                <p className='font-bold text-xs md:text-sm'>Server management</p>
             </div>
         </div>
     )
