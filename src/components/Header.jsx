@@ -2,7 +2,7 @@ import { InformationCircleIcon } from '@heroicons/react/24/outline'
 import { BriefcaseIcon } from '@heroicons/react/24/outline'
 import { ChatBubbleOvalLeftIcon } from '@heroicons/react/24/outline'
 import { FireIcon } from '@heroicons/react/24/outline'
-import {Link, useLocation} from 'react-router-dom';
+import { Link, useLocation} from 'react-router-dom';
 
 export default function Header () {
   const location = useLocation();
