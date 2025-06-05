@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+a  {
+  display: flex !important;
+}
+
+.hover-underline-dual {
+    @apply relative inline-block text-[#55d2ba] font-semibold;
+
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      height: 2px;
+      width: 100%;
+      background-color: #55d2ba;
+      transform: scaleX(0);
+      transition: transform 0.3s ease;
+    }
+
+    &::before {
+      top: 0;
+      left: 0;
+      transform-origin: right;
+    }
+
+    &::after {
+      bottom: 0;
+      left: 0;
+      transform-origin: left;
+    }
+
+    &:hover::before,
+    &:hover::after {
+      transform: scaleX(1);
+    }
+  }
+  .resume-button {
+  transition: transform 0.3s ease;
+}
+
+.resume-button:hover {
+  transform: translateY(-4px); 
+}
+
+.resume-button svg { 
+  transition: transform 0.3s ease;
+}
+
+.resume-button:hover svg {
+  transform: translateX(6px); 
+}
