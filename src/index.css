@@ -4,6 +4,10 @@ a  {
   display: flex !important;
 }
 
+@theme {
+  --font-fira-code: "Fira Code", ui-monospace, SFMono-Regular, monospace;
+  --font-mono: "Fira Code", ui-monospace, SFMono-Regular, monospace;
+}
 .hover-underline-dual {
     @apply relative inline-block text-[#55d2ba] font-semibold;
 
