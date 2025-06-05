@@ -33,9 +33,9 @@ export default function () {
             </div>
             <div className='flex items-center justify-between text-white/80'>
                 <ComputerDesktopIcon className='w-20 h-20' strokeWidth={0.6}/>
-                <div className='animate-pulse w-50 h-[2px] bg-white'></div>
+                <div className='animate-pulse w-20 sm:w-50 h-[2px] bg-white'></div>
                 <DevicePhoneMobileIcon className='w-20 h-20' strokeWidth={0.6}/>
-                <div className='animate-pulse w-50 h-[2px] bg-white'></div>
+                <div className='animate-pulse w-20 sm:w-50 h-[2px] bg-white'></div>
                 <ServerIcon className='w-20 h-20' strokeWidth={0.6}/>
             </div>
             <div className='flex justify-between'>

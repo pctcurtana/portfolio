@@ -12,9 +12,10 @@ export default function Header () {
   return(
     <header className="py-6 shadow-md">
       <div className="max-w-6xl mx-auto px-2 flex justify-between items-center">
-        <h1 className="flex items-center text-xl font-bold cursor-pointer">
-          <FireIcon className="h-10 w-10 mr-1"/>thatx2
-        </h1>
+        <div className='flex items-center'>
+          <FireIcon className="h-10 w-10 mr-1"/>
+          <h1 className="text-xl font-bold cursor-pointer invisible sm:visible">thatx2</h1>
+        </div>
         <nav className="flex space-x-4">
           <Link to = "/" className={linkId('/')}>About
           <InformationCircleIcon className="h-5 w-5 ml-1"/>
